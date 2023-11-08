@@ -1,11 +1,11 @@
 // Variável para armazenar o nome do herói
-var nomeDoHeroi = "Chapolin Colorado";
+let nomeDoHeroi = "Chapolin Colorado";
 
-// Variável para armazenar o (XP) do herói
-var xpDoHeroi = 3000;
+// Variável para armazenar o XP do herói
+let xpDoHeroi = 3000;
 
-// Estrutura de decisão para determinar o nível do herói com base na quantidade de XP
-var nivelDoHeroi;
+// Estrutura de decisão para determinar o nível do herói
+let nivelDoHeroi;
 
 if (xpDoHeroi < 1000) {
     nivelDoHeroi = "Ferro";
